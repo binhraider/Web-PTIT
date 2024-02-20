@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý Sinh viên</title>
+</head>
+<body>
+
+<h1>Quản lý Sinh viên</h1>
+
+<script>
+    class SinhVien {
+        constructor(maSV, hoTen, ngaySinh, lop, diemGPA) {
+            this.maSV = maSV;
+            this.hoTen = hoTen;
+            this.ngaySinh = ngaySinh;
+            this.lop = lop;
+            this.diemGPA = diemGPA;
+        }
+
+        capNhapThongTin(maSV, hoTen, ngaySinh, lop, diemGPA) {
+            this.maSV = maSV;
+            this.hoTen = hoTen;
+            this.ngaySinh = ngaySinh;
+            this.lop = lop;
+            this.diemGPA = diemGPA;
+        }
+
+        hienThiThongTin() {
+            return `<p>Mã SV: ${this.maSV}</p>
+                    <p>Họ tên: ${this.hoTen}</p>
+                    <p>Ngày sinh: ${this.ngaySinh}</p>
+                    <p>Lớp: ${this.lop}</p>
+                    <p>Điểm GPA: ${this.diemGPA}</p>`;
+        }
+    }
+
+    let danhSachSV = [];
+    let soLuongSV = parseInt(prompt("Nhập số lượng SV: "));
+
+    for (let i = 0; i < soLuongSV; i++) {
+        let maSV = prompt("Mã SV: ");
+        let hoTen = prompt("Họ tên: ");
+        let ngaySinh = prompt("Ngày sinh: ");
+        let lop = prompt("Lớp: ");
+        let diemGPA = prompt("Điểm GPA: ");
+        danhSachSV.push(new SinhVien(maSV, hoTen, ngaySinh, lop, diemGPA));
+    }
+
+    function hienThiDanhSachSV() {
+        let output = "<h2>Danh sách Sinh viên</h2>";
+        for (let i = 0; i < soLuongSV; i++) {
+            output += danhSachSV[i].hienThiThongTin();
+            output += "<hr>";
+        }
+        document.getElementById("thongTinSV").innerHTML = output;
+    }
+
+    function capNhapThongTinSinhVien() {
+        let maSV = prompt("Nhập Mã SV cần cập nhật thông tin: ");
+        let sinhVienCanCapNhat = danhSachSV.find(sv => sv.maSV === maSV);
+        if (sinhVienCanCapNhat) {
+            let hoTen = prompt("Họ tên mới: ");
+            let ngaySinh = prompt("Ngày sinh mới: ");
+            let lop = prompt("Lớp mới: ");
+            let diemGPA = prompt("Điểm GPA mới: ");
+            sinhVienCanCapNhat.capNhapThongTin(maSV, hoTen, ngaySinh, lop, diemGPA);
+            alert("Đã cập nhật thông tin sinh viên!");
+        } else {
+            alert("Không tìm thấy sinh viên có Mã SV " + maSV);
+        }
+    }
+</script>
+
+<button onclick="hienThiDanhSachSV()">Hiển thị Danh sách SV</button>
+<button onclick="capNhapThongTinSinhVien()">Cập nhật thông tin SV</button>
+<div id="thongTinSV"></div>
+
+</body>
+</html>
