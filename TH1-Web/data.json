@@ -1,0 +1,221 @@
+{
+    "trueFalseQuestions": [
+      {
+        "question": "Thủ đô của Trung Quốc là London.",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Bầu trời có màu xanh",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mặt trời chiếu ra tia nắng vàng",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Trái Đất hình cầu",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Miền Bắc có 4 mùa",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Các thẻ HTML có thể viết liền nhau mà không cần xuống dòng",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dơi bị mù ?",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Chim cánh cụt có thể bay.",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Trái đất là hành tinh duy nhất trong hệ mặt trời có sự sống.",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Khỉ là loài vật đầu tiên bay vào trong không gian ?",
+        "correctAnswer": 0
+      }
+    ],
+    "oneChoiceQuestions": [
+      {
+        "question": "Thủ đô của Việt Nam là:",
+        "answers": ["Thành phố Hồ Chí Minh", "Hà Nội", "Đà Nẵng", "Cần Thơ"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cá voi thuộc họ động vật nào?",
+        "answers": [
+          "Họ Cá heo",
+          "Họ Cá voi",
+          "Họ Cá mập",
+          "Họ Cá gầy"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Từ HTML là từ viết tắt của từ nào?",
+        "answers": [
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyper Text Markup Language",
+            "Tất cả đều sai"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Đại dương lớn nhất trên trái đất là:",
+        "answers": [
+          "Đại Tây Dương",
+          "Thái Bình Dương",
+          "Ấn Độ Dương",
+          "Bắc Băng Dương"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Thành phố nào được biết đến là 'Thành phố hoa anh đào'?",
+        "answers": ["Seoul", "Tokyo", "Osaka", "Beijing"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mã HTML nào thực hiện việc thêm màu nền cho trang web?",
+        "answers": [
+            "body style=background-color:red;", 
+            "body bg=red", 
+            "background>red</background", 
+            "body style=color:red"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Thành phố nào là thủ đô của Pháp?",
+        "answers": ["Berlin", "Madrid", "Paris", "Rome"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Biểu tượng nào thường được sử dụng để tượng trưng cho hòa bình?",
+        "answers": ["Chìa khóa", "Hình trái tim", "Chữ V", "Hình con chim bồ câu"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+        "answers": [
+            "Tổ chức World Wide Web Consortium (W3C)", 
+            "Apple", 
+            "Google", 
+            "Microsoft"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Đâu là tag để xuống dòng trong web",
+        "answers": [
+          "lb",
+          "br",
+          "break",
+          "enter"
+        ],
+        "correctAnswer": 2
+      }
+    ],
+    "multipleChoiceQuestions": [
+      {
+        "question": "Mèo thích ăn gì ?",
+        "answers": ["Cá", "Rắn", "Chó", "Cơm"],
+        "correctAnswer": [0, 3]
+      },
+      {
+        "question": "Các biểu tượng nào thường được sử dụng để biểu hiện hỗ trợ đối với cộng đồng LGBT?",
+        "answers": ["Cờ cầu vồng", "Hình ảnh nụ cười", "Biểu tượng hòa bình", "Lựa chọn khác"],
+        "correctAnswer": [0, 2]
+      },
+      {
+        "question": "Đâu là một phương pháp bảo vệ động vật hoang dã?",
+        "answers": ["Giảm sử dụng sản phẩm làm từ động vật", "Hỗ trợ các tổ chức bảo tồn động vật.", "Giữ vùng rừng nguyên sinh.", "Lựa chọn khác"],
+        "correctAnswer": [0,1,2]
+      },
+      {
+        "question": "Những hoạt động nào dưới đây đóng góp vào biến đổi khí hậu?",
+        "answers": ["Sử dụng năng lượng tái tạo", "Rừng phòng hộ", "Sử dụng xe hơi điện", "Xả rác bừa bãi"],
+        "correctAnswer": [0, 2]
+      },
+      {
+        "question": "Quốc tế Phụ Nữ được tổ chức lần đầu tiên vào năm nào ?",
+        "answers": ["1900", "2000", "1910", "2024"],
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Ai là người sáng lập ra Facebook?",
+        "answers": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Jeff Bezos"],
+        "correctAnswer": [2]
+      },
+      {
+        "question": "Ngày nào được coi là 'Ngày Quốc tế Lao Động'?",
+        "answers": ["8/3", "20/10", "20/11", "1/5"],
+        "correctAnswer": [3]
+      },
+      {
+        "question": "Thể dục định kỳ mang lại những lợi ích gì cho sức khỏe?",
+        "answers": ["Cải thiện sức khỏe tim mạch và hệ tuần hoàn", "Giảm nguy cơ mắc các bệnh tim mạch và tiểu đường", "Tăng cường sức mạnh cơ bắp và sự linh hoạt", "Giảm cân"],
+        "correctAnswer": [0, 1, 2, 3]
+      },
+      {
+        "question": "Tham gia các hoạt động thể thao có ảnh hưởng như thế nào đến sự phát triển cá nhân?",
+        "answers": ["Xây dựng kỹ năng lãnh đạo và làm việc nhóm", "Tăng cường sự tự tin và lòng kiên nhẫn", "Phát triển sự kiên trì và sự kiên nhẫn", "Phát triển kỹ năng cá nhân và tinh thần thể thao"],
+        "correctAnswer": [0,1,2,3]
+      },
+      {
+        "question": "Thủ đô của Việt Nam là?",
+        "answers": ["Hà Nội", "Đà Nẵng", "Hải Phòng", "Cần Thơ"],
+        "correctAnswer": [0]
+      }
+    ],
+    "textQuestions": [
+      {
+        "question": "Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì ... Điền vào chỗ trống từ hợp lý nhất",
+        "answer": ""
+      },
+      {
+        "question": "Kể tên một số loài động vật sống dưới nước và sống trên cạn ?",
+        "answer": ""
+      },
+      {
+        "question": "Tại sao nói rừng như một lá phổi xanh dành cho con người ?",
+        "answer": ""
+      },
+      {
+        "question": "Bạn thích và không thích điểm gì ở PTIT ?",
+        "answer": ""
+      },
+      {
+        "question": "Mô tả quá trình hình thành và sự phát triển của Internet từ những ngày đầu cho đến ngày nay.",
+        "answer": ""
+      },
+      {
+        "question": "Bình là học sinh một trường ở miền núi, nhân dịp hè về thăm bác ruột ở Hà Nội, Bình mượn xe đạp của bác đi chơi phố. Khi đến đường Bà Triệu, do không biết đó là đường một chiều, Bình vẫn đi ngược vào, không may anh Hùng đi xe máy đã đâm vào Bình làm Bình ngã, xe đạp bị hỏng nặng. Nêu quan điểm của em ai đúng ai sai ?",
+        "answer": ""
+      },
+      {
+        "question": "Trình bày những biến đổi về cách mạng công nghệ thông tin và tác động của chúng đối với cuộc sống hàng ngày của con người.",
+        "answer": ""
+      },
+      {
+        "question": "Mô tả các ứng dụng tiềm năng của trí tuệ nhân tạo trong tương lai và ảnh hưởng của chúng đối với nền kinh tế và xã hội.",
+        "answer": ""
+      },
+      {
+        "question": "Phân tích tác động của biến đổi khí hậu đối với môi trường sống và cách mà các quốc gia và tổ chức đang phản ứng trước thách thức này.",
+        "answer": ""
+      },
+      {
+        "question": "Trình bày các biện pháp cần thực hiện để giảm bớt ô nhiễm môi trường và bảo vệ nguồn tài nguyên tự nhiên cho thế hệ tương lai.",
+        "answer": ""
+      }
+    ]
+  }
+  
