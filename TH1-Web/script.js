@@ -379,7 +379,7 @@ function submitQuizz() {
         <li class="result-item"><span class="info-label">Ngày sinh:</span> <b>${dob}</b></li>
         <li class="result-item"><span class="info-label">Căn cước công dân:</span> <b>${cardId}</b></li>
         <li class="result-item"><span class="info-label">Địa chỉ:</span> <b>${address}</b></li>
-        <li class="result-item"><span class="info-label">Điểm:</span> <b>${result.score} / 30</b></li>
+        <li class="result-item"><span class="info-label">Điểm trắc nghiệm:</span> <b>${result.score} / 30</b></li>
         <li class="result-item"><span class="info-label">Số câu trả lời (văn bản):</span> <b>${result.textAnswerCount}</b></li>
       </ul>
       <a href="form.html" class="btn btn-danger mt-3">Làm Lại</a>
